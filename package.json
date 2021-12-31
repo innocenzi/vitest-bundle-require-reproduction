@@ -1,0 +1,13 @@
+{
+	"dependencies": {
+		"bundle-require": "^2.2.0",
+		"esbuild": "^0.14.9",
+		"vitest": "^0.0.124"
+	},
+	"devDependencies": {
+		"@types/node": "^17.0.5"
+	},
+	"scripts": {
+    "test": "vitest --run --reporter=verbose"
+	}
+}
