@@ -2,12 +2,15 @@
 	"dependencies": {
 		"bundle-require": "^2.2.0",
 		"esbuild": "^0.14.9",
+		"esno": "^0.13.0",
 		"vitest": "^0.0.124"
 	},
 	"devDependencies": {
-		"@types/node": "^17.0.5"
+		"@types/node": "^17.0.5",
+		"typescript": "^4.5.4"
 	},
 	"scripts": {
-    "test": "vitest --run --reporter=verbose"
+		"test": "vitest --run --reporter=verbose",
+		"cli": "esno cli.ts"
 	}
 }
